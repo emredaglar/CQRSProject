@@ -1,4 +1,5 @@
 ﻿using CQRSProject.Context;
+using CQRSProject.CQRSDesignPattern.Results.ProductResults;
 
 namespace CQRSProject.CQRSDesignPattern.Handlers.ProductHandlers
 {
@@ -10,5 +11,9 @@ namespace CQRSProject.CQRSDesignPattern.Handlers.ProductHandlers
         {
             _context = context;
         }
+        //public List<GetProductQueryResult> Handle()
+        //{
+        //    var values=_context.Products
+        //}
     }
 }
